@@ -2,13 +2,13 @@
  * Simple model class
  */
 export class SimpleHello {
-    greeting: string;
+  greeting: string;
 
-    constructor(title: string) {
-        this.greeting = title;
-    }
+  constructor(title: string) {
+    this.greeting = title;
+  }
 }
 
 export type SimpleHelloType = {
-    greeting: string;
+  greeting: string;
 };

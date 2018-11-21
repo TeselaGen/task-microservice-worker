@@ -1,4 +1,4 @@
-import {GET, Path} from "typescript-rest";
+import { GET, Path } from "typescript-rest";
 import { state } from "../../state";
 import * as moment from "moment";
 import { Tags } from "typescript-rest-swagger";
@@ -9,12 +9,12 @@ import { Tags } from "typescript-rest-swagger";
 @Tags("api/public")
 @Path("public/status")
 export class StatusController {
-    /**
-     * Gets the current Server Status
-     */
-    @GET
-    public getStatus(): string {
-        const uptimeStr = moment().from(state.startTime, true);
-        return `Server has been operational for ${uptimeStr}`;
-    }
+  /**
+   * Gets the current Server Status
+   */
+  @GET
+  public getStatus(): string {
+    const uptimeStr = moment().from(state.startTime, true);
+    return `Server has been operational for ${uptimeStr}`;
+  }
 }

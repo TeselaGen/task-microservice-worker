@@ -11,7 +11,9 @@ export const parseAndInitTaskRunners = (): void => {
   // If initModules is false then don't do anything
   if (!config.initModules && !process.env.BUILD_INIT) {
     logger.info(`Not re-initializing modules`);
-    logger.info(`Loading modules from manifest ${config.taskRunnerManifestPath}`);
+    logger.info(
+      `Loading modules from manifest ${config.taskRunnerManifestPath}`
+    );
     const manifest = fse.readJsonSync(config.taskRunnerManifestPath);
     state.taskRunnerManifest = manifest;
     logger.info(JSON.stringify({ manifest }));
