@@ -1,2 +1,2 @@
 
-docker build . -t microservice-worker
+docker build . -t task-microservice-worker

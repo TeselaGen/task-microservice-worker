@@ -4,10 +4,8 @@
     "entryFile": "./src/index.ts",
     "name": "TeselaGen ExpressJS Microservice Worker",
     "description": "This is microservice worker built using Express JS for webservice communication and Node to run worker processes",
-    "license": "private",
-    "produces": [
-      "application/json"
-    ],
+    "license": "MIT",
+    "produces": ["application/json"],
     "version": "1.0.0",
     "securityDefinitions": {
       "license_key": {

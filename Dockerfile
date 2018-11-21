@@ -1,7 +1,7 @@
 FROM node:10
 
-# Install yarn
-RUN npm install -g yarn
+# Install pm2
+RUN yarn global add pm2@latest
 
 RUN mkdir /app
 
