@@ -1,0 +1,10 @@
+{
+  "calc-pi": {
+    "module": "@teselagen/calc-pi",
+    "weight": 1
+  },
+  "xlsx-to-csv": {
+    "module": "@teselagen/xlsx-to-csv",
+    "weight": 1
+  }
+}

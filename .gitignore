@@ -1,0 +1,13 @@
+.DS_Store
+build
+docs
+node_modules
+.vscode
+.nyc_output
+coverage
+working
+*.log
+npm-debug.log*
+/task-runners/
+task-runner-manifest.json
+/private-configs
