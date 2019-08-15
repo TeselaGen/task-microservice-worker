@@ -5280,10 +5280,10 @@ typescript-formatter@^7.2.2:
     commandpost "^1.0.0"
     editorconfig "^0.15.0"
 
-typescript-ioc@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/typescript-ioc/-/typescript-ioc-1.2.4.tgz#21290097b163632de58a3abba7553daef8651f49"
-  integrity sha512-KO+isZO1tmhgKL5RWMU+AZvFGzyk0LnUMBcSLVm2Xo/iZlIyu/HD2o5vdg5kXJTJMs8otbDzOUsPt8/JFr96cw==
+typescript-ioc@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/typescript-ioc/-/typescript-ioc-1.2.5.tgz#a8431c439708ddff8999f8aa3932e04c2bd125ab"
+  integrity sha512-HErBOZfOmrJ9N8QZDOHvP56FqvqZJMkaFW9Qm4ExQa93ilUnhQ+S7n80rVfUQPceZWIImsEBU/Kt19W5KXBDEw==
   dependencies:
     reflect-metadata "^0.1.10"
     require-glob "^3.2.0"
