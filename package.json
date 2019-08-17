@@ -32,7 +32,7 @@
   "dependencies": {
     "@types/klaw-sync": "^5.0.0",
     "@types/node": "^10.9.4",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "download": "^7.1.0",
     "dumpster": "^0.1.1",
     "fkill": "^5.3.0",
