@@ -469,7 +469,8 @@ export class Task extends TaskRequest {
           headers: {
             ...form.getHeaders(),
             ...multiPartHeaders
-          }
+          },
+          maxContentLength: Infinity
         })
         .post(postUrl, form)
         .then(res => {
