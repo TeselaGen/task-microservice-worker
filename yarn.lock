@@ -4328,10 +4328,10 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-reflect-metadata@^0.1.10:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.12.tgz#311bf0c6b63cd782f228a81abe146a2bfa9c56f2"
-  integrity sha512-n+IyV+nGz3+0q3/Yf1ra12KpCyi001bi4XFxSjbiWWjfqb52iTTtpGXmCCAOWWIAn9KEuFZKGqBERHmrtScZ3A==
+reflect-metadata@^0.1.10, reflect-metadata@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+  integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
 
 regenerator-runtime@^0.11.0:
   version "0.11.1"
@@ -5280,12 +5280,12 @@ typescript-formatter@^7.2.2:
     commandpost "^1.0.0"
     editorconfig "^0.15.0"
 
-typescript-ioc@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/typescript-ioc/-/typescript-ioc-1.2.4.tgz#21290097b163632de58a3abba7553daef8651f49"
-  integrity sha512-KO+isZO1tmhgKL5RWMU+AZvFGzyk0LnUMBcSLVm2Xo/iZlIyu/HD2o5vdg5kXJTJMs8otbDzOUsPt8/JFr96cw==
+typescript-ioc@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/typescript-ioc/-/typescript-ioc-1.2.6.tgz#7b535d81f674b2dd8f3b0f33dfc30f1f02906753"
+  integrity sha512-ksyRctgYtHsjmKBceEgeifV3Zq3tnqLh6/q9HlWC08lnng9ZHA3IwXw8oQlv77TpHbs2J3GVUbxTuhmLLSWCTg==
   dependencies:
-    reflect-metadata "^0.1.10"
+    reflect-metadata "^0.1.13"
     require-glob "^3.2.0"
 
 typescript-rest-swagger@^0.0.20:
