@@ -60,7 +60,7 @@
     "@types/request": "2.47.1",
     "cross-env": "5.2.0",
     "jest": "^23.6.0",
-    "request": "2.87.0",
+    "request": "2.88.2",
     "rimraf": "2.6.2",
     "source-map-support": "^0.5.9",
     "ts-jest": "^23.1.4",
