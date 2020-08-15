@@ -39,7 +39,7 @@
     "form-data": "^2.3.2",
     "fs-extra": "^7.0.0",
     "klaw-sync": "^5.0.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.20",
     "moment": "^2.22.2",
     "morgan": "^1.9.1",
     "mustache": "^3.0.0",
